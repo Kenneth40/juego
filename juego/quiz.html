@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Aventura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Aventura</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>Pregunta 1: ¿Cuál es la capital de Francia?</p>
+                <input type="radio" name="q1" value="a"> a) Berlín<br>
+                <input type="radio" name="q1" value="b"> b) Madrid<br>
+                <input type="radio" name="q1" value="c"> c) París<br>
+            </div>
+            <!-- Repite el bloque anterior para las 10 preguntas -->
+            <button type="submit">Enviar respuestas</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
